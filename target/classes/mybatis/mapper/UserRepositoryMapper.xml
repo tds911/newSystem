@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tds.modules.mapper.UserRepositoryMapper">
+    <select id="findByUsername" resultType="UserEntity">
+        select * from tb_sys where username=#{username}
+    </select>
+
+    <select id="findByToken" resultType="UserEntity">
+        select * from tb_sys where token=#{token}
+    </select>
+
+</mapper>

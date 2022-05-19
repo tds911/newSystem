@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64298f76-213c-4cbc-8d5e-006acea5ef38" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="mapper" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="28KBLJtKBWOHj2oSmVncdp832p4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tdsSystem\System\src\main\resources\mybatis\mapper" />
+      <recent name="D:\tdsSystem\System\src\main\java\com\tds\project" />
+      <recent name="D:\tdsSystem\System\src\main\java\com\tds\common\security\filter" />
+      <recent name="D:\tdsSystem\System\src\main\java\com\tds\modules" />
+      <recent name="D:\tdsSystem\System\src\main\java\com\tds\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tds.modules.domain" />
+      <recent name="com.tds.modules.mapper" />
+      <recent name="com.tds.common.mapper" />
+      <recent name="com.tds.common.service.impl" />
+      <recent name="com.tds.common.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SystemApplication">
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tds.demo" />
+      <module name="System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="System" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tds.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64298f76-213c-4cbc-8d5e-006acea5ef38" name="Changes" comment="" />
+      <created>1650955364557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650955364557</updated>
+      <workItem from="1650955367187" duration="9526000" />
+      <workItem from="1650965587287" duration="1333000" />
+      <workItem from="1650967049088" duration="601000" />
+      <workItem from="1650974654887" duration="114000" />
+      <workItem from="1650975300878" duration="8326000" />
+      <workItem from="1650984941955" duration="989000" />
+      <workItem from="1650987535522" duration="187000" />
+      <workItem from="1651020992046" duration="199000" />
+      <workItem from="1651022163211" duration="855000" />
+      <workItem from="1651023358170" duration="2083000" />
+      <workItem from="1651031093757" duration="1187000" />
+      <workItem from="1651040441221" duration="1099000" />
+      <workItem from="1651130657163" duration="9701000" />
+      <workItem from="1651149677509" duration="599000" />
+      <workItem from="1651193531115" duration="3074000" />
+      <workItem from="1651196696482" duration="4395000" />
+      <workItem from="1651213161864" duration="1172000" />
+      <workItem from="1651214404678" duration="4164000" />
+      <workItem from="1651717292543" duration="19467000" />
+      <workItem from="1651740947618" duration="3949000" />
+      <workItem from="1651798534892" duration="6857000" />
+      <workItem from="1651823960009" duration="1490000" />
+      <workItem from="1651825623571" duration="6260000" />
+      <workItem from="1651888312939" duration="11768000" />
+      <workItem from="1651904619266" duration="12776000" />
+      <workItem from="1652008625335" duration="1325000" />
+      <workItem from="1652059217015" duration="14640000" />
+      <workItem from="1652087797298" duration="2913000" />
+      <workItem from="1652095387160" duration="1331000" />
+      <workItem from="1652143904130" duration="4680000" />
+      <workItem from="1652149305277" duration="860000" />
+      <workItem from="1652151227508" duration="6351000" />
+      <workItem from="1652165152877" duration="9551000" />
+      <workItem from="1652230922703" duration="780000" />
+      <workItem from="1652232336623" duration="1097000" />
+      <workItem from="1652250342650" duration="969000" />
+      <workItem from="1652253458217" duration="5262000" />
+      <workItem from="1652327761142" duration="2305000" />
+      <workItem from="1652337228079" duration="4098000" />
+      <workItem from="1652408444648" duration="7885000" />
+      <workItem from="1652423407244" duration="11468000" />
+      <workItem from="1652440156316" duration="3923000" />
+      <workItem from="1652500274193" duration="169000" />
+      <workItem from="1652614266243" duration="1232000" />
+      <workItem from="1652618640821" duration="1198000" />
+      <workItem from="1652662940671" duration="14152000" />
+      <workItem from="1652681885812" duration="14179000" />
+      <workItem from="1652700298977" duration="871000" />
+      <workItem from="1652748927247" duration="14325000" />
+      <workItem from="1652769408951" duration="6596000" />
+      <workItem from="1652777084646" duration="3669000" />
+      <workItem from="1652788056676" duration="197000" />
+      <workItem from="1652954674039" duration="4889000" />
+      <workItem from="1652962077613" duration="302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/framework/controller/LoginController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/framework/controller/LoginController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/modules/service/impl/UserLoginServiceImpl.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/common/security/handle/LogoutSuccessHandlerImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/common/security/service/TokenService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/common/security/service/TokenService.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/common/security/service/UserDetailsServiceImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/modules/domain/UserEntity.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/common/utils/MessageUtils.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.6.3/spring-security-core-5.6.3.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
+          <line>32</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/common/security/service/SysLoginService.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/common/security/service/UserDetailsServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/project/controller/SysLoginController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/project/controller/SysLoginController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/project/example/controller/SysJobController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/modules/service/impl/SysJobServiceImpl.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tds/common/utils/job/AbstractQuartzJob.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="19" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="com.tds.common.exception.user.UserPasswordNotMatchException" package="com.tds.common.exception.user" />
+          <option name="timeStamp" value="47" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.context.support.ResourceBundleMessageSource" memberName="basenameSet" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/System$SystemApplication.ic" NAME="SystemApplication Coverage Results" MODIFIED="1651025141499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
