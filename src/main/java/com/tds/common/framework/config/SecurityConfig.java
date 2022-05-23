@@ -1,4 +1,4 @@
-package com.tds.config;
+package com.tds.common.framework.config;
 
 
 import com.tds.common.security.filter.AuthenticationTokenFilter;
