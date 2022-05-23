@@ -1,6 +1,6 @@
 package com.tds.project.controller;
 
-import com.tds.SecurityUtils;
+import com.tds.common.utils.SecurityUtils;
 import com.tds.common.service.ISysUserService;
 import com.tds.common.utils.StringUtils;
 import com.tds.common.web.controller.BaseController;

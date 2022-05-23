@@ -9,8 +9,8 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class ResourceConfig implements WebMvcConfigurer {
-    @Autowired
-    private RepeatSubmitInterceptor repeatSubmitInterceptor;
+//    @Autowired
+//    private RepeatSubmitInterceptor repeatSubmitInterceptor;
 
     @Value("${upload.file.path}")
     public String uploadFilePath;
@@ -23,8 +23,8 @@ public class ResourceConfig implements WebMvcConfigurer {
     /**
      * 自定义拦截规则
      */
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(repeatSubmitInterceptor).addPathPatterns("/**");
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(repeatSubmitInterceptor).addPathPatterns("/**");
+//    }
 }

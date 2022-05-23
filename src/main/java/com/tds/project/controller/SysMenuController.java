@@ -1,6 +1,6 @@
 package com.tds.project.controller;
 
-import com.tds.SecurityUtils;
+import com.tds.common.utils.SecurityUtils;
 import com.tds.common.constant.Constants;
 import com.tds.common.constant.UserConstants;
 import com.tds.common.security.service.TokenService;

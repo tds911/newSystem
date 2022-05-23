@@ -1,6 +1,6 @@
 package com.tds.common.service.impl;
 
-import com.tds.SecurityUtils;
+import com.tds.common.utils.SecurityUtils;
 import com.tds.common.constant.UserConstants;
 import com.tds.common.service.ISysMenuService;
 import com.tds.common.utils.StringUtils;
@@ -13,7 +13,6 @@ import com.tds.project.vo.MetaVo;
 import com.tds.project.vo.RouterVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.w3c.dom.ls.LSInput;
 
 import java.util.*;
 import java.util.stream.Collectors;

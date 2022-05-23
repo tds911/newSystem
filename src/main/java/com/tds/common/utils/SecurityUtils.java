@@ -1,4 +1,4 @@
-package com.tds;
+package com.tds.common.utils;
 
 import com.tds.common.constant.HttpStatus;
 import com.tds.common.exception.CustomException;

@@ -1,6 +1,6 @@
 package com.tds.common.security.filter;
 
-import com.tds.SecurityUtils;
+import com.tds.common.utils.SecurityUtils;
 import com.tds.common.security.service.TokenService;
 
 import com.tds.common.utils.StringUtils;
