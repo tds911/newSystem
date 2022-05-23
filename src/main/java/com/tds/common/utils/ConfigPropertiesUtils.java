@@ -13,4 +13,7 @@ public class ConfigPropertiesUtils {
 
     @Value("${upload.file.path}")
     public String uploadFilePath;
+
+    @Value("${toZip.file.path}")
+    public String toZipFilePath;
 }

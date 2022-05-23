@@ -1,0 +1,17 @@
+spring:
+    datasource:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driverClassName: oracle.jdbc.driver.OracleDriver
+      druid:
+        master:
+            url: jdbc:dbc:oracle:thin:@localhost:1521:orcl
+            username: C##tds
+            password: 123456
+
+        initialSize: 5
+        minIdle: 10
+        maxActive: 20
+        maxWait: 60000
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        maxEvictableIdleTimeMillis: 900000
