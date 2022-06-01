@@ -29,7 +29,9 @@ public class FileController {
         List<File> listZip=new ArrayList<>();
         String userFile=System.getProperty("user.dir");
         String path="files/toZip/";
-      List<String>filelj=null;
+        
+        //数据库保存路径
+        List<String>filelj=null;
         if (!CollectionUtils.isEmpty(filelj)){
             for (String s : filelj) {
                 String Commonwjpath=s.replaceAll("/files/tbcommonfj","./tdsFile/tbcommonfjpath");

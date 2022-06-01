@@ -90,17 +90,5 @@ public class SysJob extends BaseEntity implements Serializable {
         return null;
     }
 
-    @Override
-    public String toString() {
-        return "SysJob{" +
-                "jobId=" + jobId +
-                ", jobName='" + jobName + '\'' +
-                ", jobGroup='" + jobGroup + '\'' +
-                ", invokeTarget='" + invokeTarget + '\'' +
-                ", cronExpression='" + cronExpression + '\'' +
-                ", misfirePolicy='" + misfirePolicy + '\'' +
-                ", concurrent='" + concurrent + '\'' +
-                ", status='" + status + '\'' +
-                '}';
-    }
+
 }

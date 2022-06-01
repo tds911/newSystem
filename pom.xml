@@ -57,6 +57,10 @@
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+        </dependency>
 
 
         <dependency>
@@ -179,7 +183,21 @@
             <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
             <version>2.5.6</version>
         </dependency>
-
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+            <version>2.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.5</version>
+        </dependency>
 
 
     </dependencies>

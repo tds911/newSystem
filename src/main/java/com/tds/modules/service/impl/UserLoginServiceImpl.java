@@ -13,7 +13,7 @@ public class UserLoginServiceImpl implements UserLoginService {
     
     @Override
     public User findByUsername(String username) {
-        System.out.println(userLoginMapper.findByUsername(username));
+      //  System.out.println(userLoginMapper.findByUsername(username));
         return userLoginMapper.findByUsername(username);
     }
 }

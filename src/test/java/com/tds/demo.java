@@ -4,14 +4,12 @@ import java.util.Random;
 
 public class demo {
     public static void main(String[] args) {
-        Random r=new Random();
-        String s=" 0 0 # * * ?";
-
-
-            int num=r.nextInt(12);
-            String s1 = s.replaceAll("#", String.valueOf(num));
-            System.out.println(s1);
-
+        System.out.println(Math.random());
+        int n=10;
+        System.out.println((int)(Math.random()*n+1));
+        int a=10 ,b=20;
+        int i = a + (int) (Math.random() * (b - a + 1));
+        System.out.println(i);
 
 
 

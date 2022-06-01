@@ -55,4 +55,11 @@ public class Convert {
             return defaultValue;
         }
     }
+
+    public static String[] toStrArray(String str){
+        return toStrArray(",",str);
+    }
+    public static String[] toStrArray(String split,String str){
+        return str.split(split);
+    }
 }

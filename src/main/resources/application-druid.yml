@@ -15,3 +15,8 @@ spring:
         timeBetweenEvictionRunsMillis: 60000
         minEvictableIdleTimeMillis: 300000
         maxEvictableIdleTimeMillis: 900000
+gen:
+  author: tds
+  packkageName: com.tds.project.system
+  autoRemovePre: false
+  tablePrefix: sys_
