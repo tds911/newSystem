@@ -299,7 +299,7 @@
       <workItem from="1653989843682" duration="3652000" />
       <workItem from="1654044711624" duration="12612000" />
       <workItem from="1654058365431" duration="2944000" />
-      <workItem from="1654066315766" duration="3490000" />
+      <workItem from="1654066315766" duration="4118000" />
     </task>
     <task id="LOCAL-00001" summary="系统">
       <created>1652963437926</created>
@@ -329,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653294258669</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="定时任务、生成代码功能">
+      <created>1654071822140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654071822140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
