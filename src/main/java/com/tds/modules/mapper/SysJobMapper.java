@@ -16,7 +16,7 @@ public interface SysJobMapper {
 
     public int deleteJobByIds(Long[] ids);
 
-    public int deleteJob(SysJob job);
+    public int deleteJob(Long jobId);
 
     public int insertJob(SysJob job);
 

@@ -86,7 +86,7 @@ public class SysJobServiceImpl implements SysJobService {
     public int deleteJob(SysJob job) throws SchedulerException {
         Long jobId = job.getJobId();
         String jobGroup = job.getJobGroup();
-        int rows = sysJobMapper.deleteJob(job);
+        int rows = sysJobMapper.deleteJob(jobId);
         if (rows > 0) {
             scheduler.deleteJob(ScheduleUtils.getJobKey(jobId, jobGroup));
         }

@@ -6,6 +6,8 @@ import com.tds.modules.service.SysJobService;
 import com.tds.modules.service.impl.SysJobServiceImpl;
 import com.tds.project.example.service.DemoService;
 import org.quartz.SchedulerException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +19,7 @@ import java.util.Random;
 
 @Service
 public class DemoServiceImpl implements DemoService {
+    private static final Logger log= LoggerFactory.getLogger(DemoServiceImpl.class);
 
     @Autowired
     private SysJobServiceImpl sysJobService;
@@ -81,7 +84,7 @@ public class DemoServiceImpl implements DemoService {
         job.setMisfirePolicy(sysJob.getMisfirePolicy());
         String jobGroup = sysJob.getJobGroup();
         sysJobService.updateSchedulerJob(job, jobGroup);
-        System.out.println(job.getCronExpression());
+        log.error("随机CRON表达式:"+job.getCronExpression());
         System.out.println(("===========修改结束)")+sysJob.getJobName()+("==========="));
     }
 }

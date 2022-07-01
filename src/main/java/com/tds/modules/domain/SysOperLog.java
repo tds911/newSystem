@@ -1,6 +1,8 @@
 package com.tds.modules.domain;
 
+import javax.xml.crypto.Data;
 import java.util.Arrays;
+import java.util.Date;
 
 public class SysOperLog extends BaseEntity{
     private static final long serialVersionUID=1L;
@@ -10,10 +12,14 @@ public class SysOperLog extends BaseEntity{
     private Integer[] businessTYpe;
     private String method;
     private String requestMethod;
-    private Integer operName;
+    private String operName;
     private Integer status;
     private String operIp;
     private String operUrl;
+    private String operLocation;
+    private String operParam;
+    private Date operTime;
+    private String methodTitle;
     private String jsonResult;
     private String errorMsg;
     private Integer OperatorType;
@@ -66,11 +72,11 @@ public class SysOperLog extends BaseEntity{
         this.requestMethod = requestMethod;
     }
 
-    public Integer getOperName() {
+    public String getOperName() {
         return operName;
     }
 
-    public void setOperName(Integer operName) {
+    public void setOperName(String operName) {
         this.operName = operName;
     }
 
@@ -122,6 +128,38 @@ public class SysOperLog extends BaseEntity{
         OperatorType = operatorType;
     }
 
+    public String getOperLocation() {
+        return operLocation;
+    }
+
+    public void setOperLocation(String operLocation) {
+        this.operLocation = operLocation;
+    }
+
+    public String getOperParam() {
+        return operParam;
+    }
+
+    public void setOperParam(String operParam) {
+        this.operParam = operParam;
+    }
+
+    public Date getOperTime() {
+        return operTime;
+    }
+
+    public void setOperTime(Date operTime) {
+        this.operTime = operTime;
+    }
+
+    public String getMethodTitle() {
+        return methodTitle;
+    }
+
+    public void setMethodTitle(String methodTitle) {
+        this.methodTitle = methodTitle;
+    }
+
     @Override
     public String toString() {
         return "SysOperLog{" +
@@ -131,10 +169,14 @@ public class SysOperLog extends BaseEntity{
                 ", businessTYpe=" + Arrays.toString(businessTYpe) +
                 ", method='" + method + '\'' +
                 ", requestMethod='" + requestMethod + '\'' +
-                ", operName=" + operName +
+                ", operName='" + operName + '\'' +
                 ", status=" + status +
                 ", operIp='" + operIp + '\'' +
                 ", operUrl='" + operUrl + '\'' +
+                ", operLocation='" + operLocation + '\'' +
+                ", operParam='" + operParam + '\'' +
+                ", operTime=" + operTime +
+                ", methodTitle='" + methodTitle + '\'' +
                 ", jsonResult='" + jsonResult + '\'' +
                 ", errorMsg='" + errorMsg + '\'' +
                 ", OperatorType=" + OperatorType +

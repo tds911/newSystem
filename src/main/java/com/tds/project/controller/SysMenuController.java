@@ -8,6 +8,7 @@ import com.tds.common.service.ISysMenuService;
 import com.tds.common.utils.ServletUtils;
 import com.tds.common.utils.StringUtils;
 import com.tds.common.web.controller.BaseController;
+import com.tds.common.web.domain.TreeSelect;
 import com.tds.common.web.domain.server.AjaxResult;
 import com.tds.modules.domain.SysMenu;
 import com.tds.modules.domain.UserEntity;
@@ -43,7 +44,8 @@ public class SysMenuController extends BaseController {
         UserEntity userEntity = tokenService.getLoginUser(ServletUtils.getRequest());
         Long userId = userEntity.getUser().getUserId();
         List<SysMenu> menus = menuService.selectMenuList(menu, userId);
-        return AjaxResult.success(menuService.buildMenuTreeSelect(menus));
+        List<TreeSelect> treeSelects = menuService.buildMenuTreeSelect(menus);
+        return AjaxResult.success(treeSelects);
     }
 
     @GetMapping(value = "/roleMenuTreeselect/{roleId}")

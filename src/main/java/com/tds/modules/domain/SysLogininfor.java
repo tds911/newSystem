@@ -9,6 +9,7 @@ public class SysLogininfor {
     private String browser;
     private String os;
     private String msg;
+    private String loginTime;
 
     public Long getInfoId() {
         return infoId;
@@ -74,9 +75,17 @@ public class SysLogininfor {
         this.msg = msg;
     }
 
+    public String getLoginTime() {
+        return loginTime;
+    }
+
+    public void setLoginTime(String loginTime) {
+        this.loginTime = loginTime;
+    }
+
     @Override
     public String toString() {
-        return "SysLoginimfor{" +
+        return "SysLogininfor{" +
                 "infoId=" + infoId +
                 ", userName='" + userName + '\'' +
                 ", status='" + status + '\'' +
@@ -85,6 +94,7 @@ public class SysLogininfor {
                 ", browser='" + browser + '\'' +
                 ", os='" + os + '\'' +
                 ", msg='" + msg + '\'' +
+                ", loginTime='" + loginTime + '\'' +
                 '}';
     }
 }

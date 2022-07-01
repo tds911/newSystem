@@ -149,6 +149,7 @@
     <orderEntry type="library" name="Maven: io.github.xerprojects:xerj.commandstack.providers.springcontext:0.0.1" level="project" />
     <orderEntry type="library" name="Maven: io.github.xerprojects:xerj.commandstack:0.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.7" level="project" />
+    <orderEntry type="library" name="Maven: com.example:System:0.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.12" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:druid-spring-boot-starter:1.1.18" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.6.7" level="project" />

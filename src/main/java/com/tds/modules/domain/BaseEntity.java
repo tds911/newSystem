@@ -1,5 +1,7 @@
 package com.tds.modules.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 import java.util.HashMap;
@@ -8,6 +10,7 @@ import java.util.Map;
 public class BaseEntity implements Serializable {
     private static final long serialVersionUID=1L;
     private String createBy;
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private Date createTime;
     private String createName;
     private String updateBy;

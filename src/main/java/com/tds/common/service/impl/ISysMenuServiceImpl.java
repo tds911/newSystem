@@ -24,6 +24,11 @@ public class ISysMenuServiceImpl implements ISysMenuService {
     @Autowired
     private SysRoleMenuMapper roleMenuMapper;
 
+    /**
+     * 根据用户ID查询权限
+     * @param userId
+     * @return
+     */
     @Override
     public Set<String> selectMenuPermsByUserId(Long userId) {
         List<String> perms = iSysMenuMapper.selectMenuPermsByUserId(userId);
@@ -36,6 +41,12 @@ public class ISysMenuServiceImpl implements ISysMenuService {
         return permsSet;
     }
 
+    /**
+     * 查询系统菜单列表
+     * @param menu
+     * @param userId
+     * @return
+     */
     @Override
     public List<SysMenu> selectMenuList(SysMenu menu, Long userId) {
         List<SysMenu> menus = null;
@@ -53,6 +64,11 @@ public class ISysMenuServiceImpl implements ISysMenuService {
         return selectMenuList(new SysMenu(), userId);
     }
 
+    /**
+     * 根据用户Id查询菜单
+     * @param userId
+     * @return
+     */
     @Override
     public List<SysMenu> selectMenuTreeByUserId(Long userId) {
         List<SysMenu> menus = null;
@@ -69,6 +85,11 @@ public class ISysMenuServiceImpl implements ISysMenuService {
         return iSysMenuMapper.selectMenuListByRoleId(roleId);
     }
 
+    /**
+     * 构建前端所需要的菜单
+     * @param menus
+     * @return
+     */
     @Override
     public List<RouterVo> buildMenus(List<SysMenu> menus) {
         List<RouterVo> routers = new LinkedList<RouterVo>();
@@ -99,6 +120,11 @@ public class ISysMenuServiceImpl implements ISysMenuService {
         return routers;
     }
 
+    /**
+     * 构建前端所需树结构
+     * @param menus
+     * @return
+     */
     @Override
     public List<SysMenu> buildMenusTress(List<SysMenu> menus) {
         List<SysMenu> returnList = new ArrayList<SysMenu>();
@@ -115,6 +141,11 @@ public class ISysMenuServiceImpl implements ISysMenuService {
         return returnList;
     }
 
+    /**
+     * 构建前端所需下拉树结构
+     * @param menus
+     * @return
+     */
     @Override
     public List<TreeSelect> buildMenuTreeSelect(List<SysMenu> menus) {
         List<SysMenu> menuTrees = buildMenusTress(menus);
@@ -126,6 +157,11 @@ public class ISysMenuServiceImpl implements ISysMenuService {
         return iSysMenuMapper.selectMenuById(menuId);
     }
 
+    /**
+     * 是否存在菜单子节点
+     * @param menuId
+     * @return
+     */
     @Override
     public boolean hasChildByMenuId(Long menuId) {
         int result = iSysMenuMapper.hasChildByMenuId(menuId);
